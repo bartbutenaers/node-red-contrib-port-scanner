@@ -1,0 +1,26 @@
+{
+    "name"         : "node-red-contrib-port-scanner",
+    "version"      : "0.0.1",
+    "description"  : "A Node Red node for scanning ports",
+    "dependencies": {
+       "portscanner": "2.1.1"
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "port", "scan" ],
+    "bugs": {
+        "url": "https://github.com/bartbutenaers/node-red-contrib-port-scan/issues"
+    },
+    "homepage": "https://github.com/bartbutenaers/node-red-contrib-port-scan",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bartbutenaers/node-red-contrib-port-scan.git"
+    },
+    "node-red"     : {
+        "nodes": {
+            "port-scan": "port_scan.js"
+        }
+    }
+}
